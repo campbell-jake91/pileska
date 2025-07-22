@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-         Port: [10031, 10032, 10033, 10034, 10035]
+         Port: [10011]
     timeout-minutes: 360
     continue-on-error: true
     steps:
